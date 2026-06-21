@@ -635,7 +635,7 @@ body {
 /* Retro Marquee footer */
 .marquee-container {
     position: absolute;
-    bottom: 50px;
+    bottom: 45px;
     left: 20px;
     right: 20px;
     background-color: #ffffff;
@@ -643,7 +643,10 @@ body {
     border-left: 2px solid var(--window-border-shadow);
     border-right: 2px solid var(--window-border-light);
     border-bottom: 2px solid var(--window-border-light);
-    padding: 4px;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
 .retro-marquee {
@@ -651,6 +654,10 @@ body {
     font-size: 18px;
     color: var(--pink-neon);
     text-shadow: 1px 1px 0px rgba(0,0,0,0.05);
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    width: 100%;
 }
 
 /* Taskbar Structure */
