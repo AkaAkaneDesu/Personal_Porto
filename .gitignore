@@ -1,0 +1,52 @@
+# Environment variables (Crucial for security)
+.env
+.env.*
+.envrc
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+ENV/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules (in case npm is used)
+node_modules/
+
+# OS/System files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Temporary / diagnostic files
+C:\Users\PANDU-PC\.gemini\antigravity-ide\brain\**
+.system_generated/
+browser/
+scratch/
+task.md
+walkthrough.md
+implementation_plan.md
+prepare_index.py
+index_pdf_compiled.html
