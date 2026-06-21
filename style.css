@@ -125,13 +125,17 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* Drawing retro icons using styled elements or symbols */
-.icon-angel::before { content: '†👼†'; font-size: 28px; line-height: 48px; display: block; color: var(--pink-neon); text-shadow: 0 0 4px var(--pink-light); }
-.icon-specs::before { content: '💾'; font-size: 28px; line-height: 48px; display: block; }
-.icon-terminal::before { content: '📟'; font-size: 28px; line-height: 48px; display: block; }
-.icon-chat::before { content: '💌'; font-size: 28px; line-height: 48px; display: block; }
+.icon-angel::before { content: '†👼†'; font-size: 20px; line-height: 1; display: block; color: var(--pink-neon); text-shadow: 0 0 4px var(--pink-light); white-space: nowrap; }
+.icon-specs::before { content: '💾'; font-size: 28px; line-height: 1; display: block; }
+.icon-terminal::before { content: '📟'; font-size: 28px; line-height: 1; display: block; }
+.icon-chat::before { content: '💌'; font-size: 28px; line-height: 1; display: block; }
 
 .icon-label {
     font-size: 11px;
