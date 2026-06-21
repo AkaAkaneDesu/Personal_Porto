@@ -9,6 +9,11 @@ PORT = 8000
 DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 
 class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
+    def do_GET(self):
+        if self.path == '/':
+            self.path = '/index.html'
+        return super().do_GET()
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=DIRECTORY, **kwargs)
 
