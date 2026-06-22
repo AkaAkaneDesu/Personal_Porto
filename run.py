@@ -5,7 +5,7 @@ import threading
 import os
 import sys
 
-PORT = 8000
+PORT = 1234
 DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 
 class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
